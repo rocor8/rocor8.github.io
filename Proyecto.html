@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="estiloPrincipal.css">
+
+		<title>Home</title>
+
+	</head>
+	<body style="background: url(https://cdn.tekcrispy.com/wp-content/uploads/2017/09/Forma-de-las-Galaxias-1021x580.jpg);">
+		<div class="navbar navbar-inverse">
+		    	<div class="container-fluid">
+		    		<div class="navbar-header">
+						<a class="navbar-brand" href="#">Equipo B-12</a>	    			
+		    		</div>
+
+		    		<ul class="nav navbar-nav">
+		    			<!--<li><a href="#">Equipo B-12</a></li>-->
+		    			<li class="active"><a href="#">Home</a></li>
+		    			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Ver Perfiles<span class="caret"></span></a>
+		    				<ul class="dropdown-menu">
+					          <li><a href="Perfil1.html">Perfil Matias</a></li>
+					          <li><a href="Perfil3.html">Perfil Luz</a></li>
+					          <li><a href="Perfil2.html">Perfil Rodrigo</a></li>
+					        </ul>
+		    			</li>
+		    		</ul>
+
+		    		<ul class="nav navbar-nav navbar-right">
+		    			<li><a href="Registro.html"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
+		    			<li><a href="Sesion.html"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesion</a></li>
+		    		</ul>
+				</div>
+		</div>
+
+		<div class="container"> 
+			  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			    <!-- Indicators -->
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="1"></li>
+			      <li data-target="#myCarousel" data-slide-to="2"></li>
+			    </ol>
+
+			    <!-- Wrapper for slides -->
+			    <div class="carousel-inner">
+			      <div class="item active">
+			      	<h2 style="color:white">Matias</h2>
+			      	<div class="column side"></div>
+			        <img class="column middle" src="70de355f-a772-4af6-a0fd-bf553e2fe4b4.jpg"  style="width:50%; ">
+			      </div>
+
+			      <div class="item">
+			      	<h2 style="color:white">Rodrigo</h2>
+			      	<div class="column side"></div>
+			        <img class="column middle" src="7a75b90d-b009-4260-94fb-9d4ab472ba09.jpg"  style="width:50%;">
+			      </div>
+			    
+			      <div class="item">
+			      	<h2 style="color:white">Luz</h2>
+			      	<div class="column side"></div>
+			        <img class="column middle" src="ab3da3d1-5b27-42bc-98d1-dd314bcbfd01.jpg"  style="width:50%;">
+			      </div>
+			    </div>
+
+			    <!-- Left and right controls -->
+			    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			      <span class="glyphicon glyphicon-chevron-left"></span>
+			      <span class="sr-only">Previous</span>
+			    </a>
+			    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			      <span class="glyphicon glyphicon-chevron-right"></span>
+			      <span class="sr-only">Next</span>
+			    </a>
+			  </div>
+		</div>
+
+		<footer class="container-fluid footer">
+			<h5>Cluster Tecnologico Catamarca</h5><a href="#"><!--<span class="glyphicon glyphicon-envelope"></span>--></a>
+		</footer>
+
+	</body>
+</html>
